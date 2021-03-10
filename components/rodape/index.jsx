@@ -5,14 +5,14 @@ const Rodape = ({}) =>{
     return(
     
         
-        <View style={{  backgroundColor: '#012D54', alignItems: 'center', justifyContent: 'center', height: 70, bottom: 0, position: 'fixed', width: 380,textAlign: 'center' }}>
+        <View style={{  backgroundColor: '#012D54', alignItems: 'center', justifyContent: 'center', height: 70, bottom: 0, position: 'fixed', width: 145,textAlign: 'center' }}>
           <View style={{ flex: 1, flexDirection: 'row', height: 70, color: 'white' }}>
-            <TouchableOpacity style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#012D54', height: 70, width: 90, color: 'white' }}>
+            <TouchableOpacity src="/perfil" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#012D54', height: 70, width: 90, color: 'white' }}>
               <View>
               <Image style={styles.perfil}
               source={{
                 
-              uri: 'https://www.flaticon.com/svg/vstatic/svg/1309/1309838.svg?token=exp=1615323434~hmac=da25e2ec434f19e8739e2aae8397a73b',
+              uri: 'https://www.flaticon.com/svg/vstatic/svg/1736/1736514.svg?token=exp=1615400043~hmac=ef912df5253395d20cadd3a439af9078',
               }}
               />
                 <Text  style={styles.logoText}>
@@ -21,12 +21,12 @@ const Rodape = ({}) =>{
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#012D54', height: 70, width: 90, color: 'white' }}>
+            <TouchableOpacity src="/anuncios" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#012D54', height: 70, width: 90, color: 'white' }}>
               <View>
               <Image style={styles.carrinho}
               source={{
                 
-              uri: 'https://www.flaticon.com/svg/vstatic/svg/872/872183.svg?token=exp=1615322593~hmac=4fa5b3de96fe0eb99a4aafc477007dd9',
+              uri: 'https://www.flaticon.com/svg/vstatic/svg/872/872183.svg?token=exp=1615399836~hmac=27c73b68174e357e97b5ead8bae085d5',
               }}
               />
                 <Text  style={styles.logoText}>
@@ -34,12 +34,12 @@ const Rodape = ({}) =>{
               </Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity style={{ flex: 1, alignItems: 'center', justifyContent: 'center',backgroundColor: '#012D54', height: 70, width: 90, color: 'white'  }}>
+            <TouchableOpacity src="/meusAnuncios" style={{ flex: 1, alignItems: 'center', justifyContent: 'center',backgroundColor: '#012D54', height: 90, width: 90, color: 'white'  }}>
               <View>
               <Image style={styles.livro}
               source={{
                 
-              uri: 'https://www.flaticon.com/svg/vstatic/svg/1613/1613873.svg?token=exp=1615322922~hmac=6747b99556f7c67e8b615ee99876edd5',
+              uri: 'https://www.flaticon.com/svg/vstatic/svg/1613/1613873.svg?token=exp=1615399814~hmac=efefdccc7529b76bc1fde69ac3de119d',
               }}
               />
                 <Text style={styles.logoText1}>
@@ -47,12 +47,12 @@ const Rodape = ({}) =>{
               </Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#012D54', height: 70, width: 90, color: 'white' }}>
+            <TouchableOpacity src="/produtos" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#012D54', height: 70, width: 90, color: 'white' }}>
               <View>
               <Image style={styles.sacola}
               source={{
                 
-              uri: 'https://www.flaticon.com/svg/vstatic/svg/872/872177.svg?token=exp=1615322994~hmac=0b12812c7d503836086db3fad731e0db',
+              uri: 'https://www.flaticon.com/svg/vstatic/svg/872/872177.svg?token=exp=1615399774~hmac=bff9dc2520ba501dc4c1f08880412092',
               }}
               />
                 <Text style={styles.logoText}>
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     livro: {
       width: 40,
       height:40,
-      marginLeft:25,
+      marginLeft:18,
     },
     sacola: {
       width: 40,

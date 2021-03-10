@@ -1,25 +1,21 @@
 import React, {useState} from 'react';
 import { StyleSheet, Text, View , TextInput , TouchableOpacity, Image } from 'react-native';
-import { AsyncStorage } from 'react-native';
+
 
 const Menu = ({navigation}) =>{
 
     return(
     
         
-        <View style={{  backgroundColor: '#012D54', alignItems: 'center', justifyContent: 'center', height: 60, top: 0, position: 'fixed', width: 360 }}>
+        <View style={{  backgroundColor: '#012D54', alignItems: 'center', justifyContent: 'center', height: 60, top: 0, position: 'fixed', width: 145 }}>
           <View style={{ flex: 1, flexDirection: 'row', height: 100, }}>
             <TouchableOpacity style={{ flex: 1, backgroundColor: '#012D54', height: 60, width: 360, flexDirection: 'row', justifyContent: 'space-between'  }}>
               <View>
-              <Image style={styles.carrinho}
-              source={{
-                
-              uri: 'file:///C:/Users/mathe/OneDrive/%C3%81rea%20de%20Trabalho/Trabalhos%20Photoshop/Logo%20levo.png',
-              }}
-              />
+               
               
+          
               </View>
-                   
+              
             </TouchableOpacity>
             </View>
             </View>
@@ -82,7 +78,17 @@ const styles = StyleSheet.create({
         color: '#FFFFF'
         
     },
-  
+    logoText: {
+        fontSize: 45,
+        color: '#FFF',
+        marginBottom: 30,
+        fontWeight: "bold",
+        fontStyle: "normal",  
+        color: 'white',
+        Lineheight : 54,
+        Align :'Center',
+        marginLeft:50,
+    },
     edux: {
         fontSize:40,
         marginLeft:50,
