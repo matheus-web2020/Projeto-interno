@@ -7,7 +7,7 @@ const Menu = ({navigation}) =>{
     return(
     
         
-        <View style={{  backgroundColor: '#012D54', alignItems: 'center', justifyContent: 'center', height: 60, top: 0, position: 'fixed', width: 145 }}>
+        <View style={{  backgroundColor: '#012D54', alignItems: 'center', justifyContent: 'center', marginLeft : -20 , height: 60, top: 0, position: 'fixed', width: "100%" }}>
           <View style={{ flex: 1, flexDirection: 'row', height: 100, }}>
             <TouchableOpacity style={{ flex: 1, backgroundColor: '#012D54', height: 60, width: 360, flexDirection: 'row', justifyContent: 'space-between'  }}>
               <View>

@@ -5,7 +5,7 @@ const Rodape = ({}) =>{
     return(
     
         
-        <View style={{  backgroundColor: '#012D54', alignItems: 'center', justifyContent: 'center', height: 70, bottom: 0, position: 'fixed', width: 145,textAlign: 'center' }}>
+        <View style={{  backgroundColor: '#012D54', alignItems: 'center', justifyContent: 'center', height: 70, bottom: 0, marginLeft : -20,position: 'fixed', width: '100%', textAlign: 'center' }}>
           <View style={{ flex: 1, flexDirection: 'row', height: 70, color: 'white' }}>
             <TouchableOpacity src="/perfil" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#012D54', height: 70, width: 90, color: 'white' }}>
               <View>
@@ -34,7 +34,7 @@ const Rodape = ({}) =>{
               </Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity src="/meusAnuncios" style={{ flex: 1, alignItems: 'center', justifyContent: 'center',backgroundColor: '#012D54', height: 90, width: 90, color: 'white'  }}>
+            <TouchableOpacity src="/meusAnuncios" style={{ flex: 1, alignItems: 'center', justifyContent: 'center',backgroundColor: '#012D54', height: 100, width: 100, color: 'white'  }}>
               <View>
               <Image style={styles.livro}
               source={{
@@ -142,7 +142,8 @@ const styles = StyleSheet.create({
         
         fontWeight: "bold",
         fontStyle: "normal",
-        color: 'white'
+        color: 'white',
+        
         
         
     },

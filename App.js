@@ -4,12 +4,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import Rodape from '../LEVO/components/rodape';
 import Menu from '../LEVO/components/menu';
 import Login from '../LEVO/pages/Login';
+import Cadastro from '../LEVO/pages/Cadastro';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Login/>
+      <Cadastro/>
       <StatusBar style="auto" />
     </View>
   );
